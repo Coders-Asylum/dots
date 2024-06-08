@@ -7,14 +7,14 @@ version: 2
 updates:
   - package-ecosystem: "pub" # See documentation for possible values
     directory: "/" # Location of package manifests
-    lables: 
+    labels: 
       - "🗄️ dependencies"
     schedule:
       interval: "weekly"
 
   - package-ecosystem: 'github-actions'
     directory: '/'
-    lables: 
+    labels: 
       - "🛠️ cicd"
     schedule:
       interval: 'weekly'
